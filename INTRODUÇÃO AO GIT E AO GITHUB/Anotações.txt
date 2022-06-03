@@ -1,1 +1,48 @@
-Fiz as anotações no caderno
+ANOTAÇÕES DO PRIMEIRO MÓDULO
+
+-Vetores
+Um vetor é uma variável dimesionada com tamanho e pré-fixado.
+Um vetor pode ser visto como uma matriz unidimensional.
+
+-Funções (Sub-algoritmos)
+São blocos de instruções que realizam tarefas específicas.
+
+OBS: *x=0 atribuição
+	*x==0 comparação
+
+
+-Git - navegação
+
+CLI (COMMAND LINE INTERFACE)
+AÇÃO					WINDOWS			LINUX
+MUDAR DE PASTAS		cd				cd
+LISTAR AS PASTAS		dir				ls
+CRIAR PASTAS-ARQUIVOS	mkdir			mkdir
+DELETAR PASTAS-ARQUIVOS	del/rmdir			rm-rf
+LIMPAR TELA			cls				clear ou CTRL+L
+
+
+*GIT - sistema distribuído e seguro.
+
+Gerar chave ssh:
+
+ssh-keygen -t ed25519 -C <email>	 - gera chave
+eval $(ssh-agent -S) 	- Rodar agente ssh
+ssh-add (chave)id-ed25519	- privada
+
+
+Comandos GIT
+git init - inicia repositório
+git add - adicionar arquivos
+git commit - comitar adições
+
+flag -a - mostra arquivos ocultos
+
+mv <nome do arquivo> ./<pasta>
+git add -u - adiciona modificações feitas
+git commit -m "<mensagem>" - comita e adiciona mensagem
+git config --list - lista as configurações
+git remote -v
+git push origin master - empurra
+git pull origin master - puxa
+git clone <url> - clona repositório
